@@ -1,0 +1,8 @@
+com\esprit\examen\controllers\StockRestController.class
+com\esprit\examen\entities\Stock.class
+com\esprit\examen\repositories\StockRepository.class
+com\esprit\examen\services\IStockService.class
+com\esprit\examen\SpringFoxSwaggerConfig.class
+com\esprit\examen\TpAchatProjectApplication.class
+com\esprit\examen\entities\Stock$StockBuilder.class
+com\esprit\examen\services\StockServiceImpl.class

@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+tpAchatProject,com.esprit.examen.services,StockServiceImpl,83,91,2,2,14,21,3,7,2,6
+tpAchatProject,com.esprit.examen.controllers,StockRestController,31,0,0,0,9,0,6,0,6,0
+tpAchatProject,com.esprit.examen,SpringFoxSwaggerConfig,80,0,0,0,22,0,6,0,6,0
+tpAchatProject,com.esprit.examen,TpAchatProjectApplication,8,0,0,0,3,0,2,0,2,0
+tpAchatProject,com.esprit.examen.entities,Stock,6,56,0,0,2,11,2,10,2,10
+tpAchatProject,com.esprit.examen.entities,Stock.StockBuilder,32,30,0,0,0,1,2,5,2,5
