@@ -10,13 +10,7 @@ pipeline {
            }
   }
   
-   stage ('MVN COMPILE') {
-      steps {
-        sh 'mvn compile'
-        echo 'compile stage done'
-
-      }
-    }
+   
     
   
  }
