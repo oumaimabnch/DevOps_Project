@@ -1,14 +1,7 @@
 pipeline {
   agent any 
   stages {
-    stage('git checkout') {
-      steps {
-        git branch : 'main',
-        url: 'https://github.com/oumaimabnch/DevOps_Project',
-        credentialsId: '3e0ecb5b-85d9-4752-92a1-2a1bbd1f56e5';
-        echo 'checkout stage one '
-           }
-  }
+    
   
      stage ('MNV BUILD') {
       steps {
