@@ -17,7 +17,7 @@ pipeline {
      stage ('MNV BUILD') {
       steps {
          echo 'before Build stage done'
-        sh 'maventp clean package'
+        sh 'mvn clean package'
         echo 'after Build stage done'
       }
     }
