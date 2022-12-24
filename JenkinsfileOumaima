@@ -10,7 +10,13 @@ pipeline {
            }
   }
   
-   
+     stage ('MNV BUILD') {
+      steps {
+        sh 'mvn clean package'
+        echo 'Build stage done'
+      }
+    }
+  
     
   
  }
