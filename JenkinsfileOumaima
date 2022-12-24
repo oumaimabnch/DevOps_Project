@@ -17,9 +17,7 @@ pipeline {
      stage ('MNV BUILD') {
       steps {
          echo 'before Build stage done'
-            def mvnHome = tool name: 'maventp', type: 'maven'
-    sh "${mvnHome}/bin/mvn -version"
-        sh 'mvn clean package'
+        sh 'maventp clean package'
         echo 'after Build stage done'
       }
     }
