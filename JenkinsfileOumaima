@@ -34,6 +34,11 @@ pipeline {
     }
   
     
+    stage ('JUNIT+MOCK') {
+      steps {
+        sh 'mvn test'
+      }
+    }
   
  }
 }
