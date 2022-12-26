@@ -23,6 +23,15 @@ pipeline {
         echo 'after Build stage done'
       }
     }
+    
+    
+       stage ('MVN COMPILE') {
+      steps {
+        sh 'mvn compile'
+        echo 'compile stage done'
+
+      }
+    }
   
     
   
