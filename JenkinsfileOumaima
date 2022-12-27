@@ -43,7 +43,7 @@ pipeline {
     
     stage ('STATIC TEST WITH SONAR') {
        steps {
-       withSonarQubeEnv('sonarqube-8.9.7-community') { 
+       withSonarQubeEnv('sq') { 
                 sh 'mvn sonar:sonar'
         }
       }
