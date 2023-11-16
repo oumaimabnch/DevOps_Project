@@ -9,7 +9,7 @@ pipeline {
    
  stage('git checkout') {
       steps {
-        git branch : 'mainnn',
+        git branch : 'main',
         url: 'https://github.com/oumaimabnch/DevOps_Project',
         credentialsId: '2de83c68-381f-4cf6-b742-eb0cb37e3637';
         echo 'checkout stage one '
