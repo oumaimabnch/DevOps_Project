@@ -11,7 +11,7 @@ pipeline {
       steps {
         git branch : 'main',
         url: 'https://github.com/oumaimabnch/DevOps_Project',
-        credentialsId: '2de83c68-381f-4cf6-b742-eb0cb37e3637';
+        credentialsId: '803f8d89-606c-4c1a-9a97-97d6ca3fa093';
         echo 'checkout stage one '
            }
   }  
